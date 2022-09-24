@@ -46,7 +46,7 @@ def Experimentos(self):
         [[(2/10, 0.0)], [(10/2, 0.0)], [(10/3, 0.0)]])
 
         self.assertEqual(self(Matriz, Xvectorestado, 2),
-        [[(0.37777777777777777, 0.0)], [(10/3, 0.0)], [(10/2, 0.0)]])
+        [[(10/3, 0.0)], [(10/3, 0.0)], [(10/2, 0.0)]])
 
         self.assertEqual(self(Matriz, Xvectorestado, 3),
         [[(2/10, 0.0)], [(10/3, 0.0)], [(10/3, 0.0)]])
